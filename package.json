@@ -1,0 +1,26 @@
+{
+  "name": "docker-multistage-slackcicd",
+  "version": "0.1.0",
+  "description": "Slack Bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amydeg25/docker-multistage-slackcicd.git"
+  },
+  "keywords": [
+    "slackbot"
+  ],
+  "author": "Aman Doad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amydeg25/docker-multistage-slackcicd/issues"
+  },
+  "homepage": "https://github.com/amydeg25/docker-multistage-slackcicd#readme",
+  "dependencies": {
+    "@slack/events-api": "^3.0.1",
+    "@slack/web-api": "^7.3.2"
+  }
+}
